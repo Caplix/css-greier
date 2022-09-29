@@ -1,0 +1,52 @@
+body{
+
+    background-color:rgb(197, 175, 175);
+}
+
+h1{
+    color:black;
+    text-align: center;
+}
+
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+
+p:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+    
+    text-underline-position: below;
+}
+p{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+h4{
+    color:black;
+    text-align: center;
+}
+div {
+    background-color: rgb(150, 55, 145);
+    width: 350px;
+    border: 15px solid green;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right:auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+div:hover{
+    background-color: rgba(255, 0, 0, 0.466);
+    cursor: pointer;
+}
